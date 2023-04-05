@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img{
+    display: inline-block;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: #dbd4d4 solid 1px;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+}
+
+.header-left-logo {
+    padding-top: 5px;
+    padding-right: 10px;
+    margin-left: 20px;
+    display: block;
+}
+
+
+.header-left-menu{
+    display: flex;
+    list-style: none;
+}
+
+.header-left-menu {
+    line-height: 64px;
+}
+
+.header-left-menu-item:hover{
+    background-color: #c4c3c3;
+}
+
+.header-left-menu .header-left-menu-item a{
+    display: block;
+}
+
+.header-left-menu-item a{
+    color: #423f3f;
+    font-size: 15px;
+    padding: 0 10px;
+    text-decoration: none;
+  
+}
+
+
+.header-left-menu-item-click{
+    border-bottom: 4px solid #44cbdd;
+}
+
+.header-left-menu-item-click a{
+    text-decoration: none;
+    color: #44cbdd;
+    font-weight: 550;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+.header-right div{
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.header-right input{
+    border: none;
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #eceaea;
+}
+
+
+
+
+
+
+
