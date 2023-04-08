@@ -478,3 +478,18 @@ img {
     justify-content: space-around;
     align-items: center;
 }
+
+.footer__select select {
+    padding: 10px 24px;
+    background-color: #f3f4f6;
+    border: none;
+}
+
+.footer__policy {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer__media img {
+    margin: 0 6px;
+}
